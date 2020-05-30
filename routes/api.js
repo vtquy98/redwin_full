@@ -1,11 +1,9 @@
-
 let tab_NapThe = require('../app/Models/NapThe');
 let MenhGia    = require('../app/Models/MenhGia');
 
 let UserInfo   = require('../app/Models/UserInfo');
 
 let config     = require('../config/thecao');
-
 let Helper     = require('../app/Helpers/Helpers');
 
 //let fs = require('fs');
