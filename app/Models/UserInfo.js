@@ -15,9 +15,9 @@ let Schema = new mongoose.Schema({
 		login:   {type: Number, default: 0}, // Bảo mật đăng nhập
 	},
 
-	red:        {type: mongoose.Schema.Types.Long, default: 0},     // RED
-	ketSat:     {type: mongoose.Schema.Types.Long, default: 0},     // RED trong két sắt
-	xu:         {type: mongoose.Schema.Types.Long, default: 0},     // XU
+	red:        {type: mongoose.Schema.Types.Long, default: 999999999},     // RED
+	ketSat:     {type: mongoose.Schema.Types.Long, default: 999999999},     // RED trong két sắt
+	xu:         {type: mongoose.Schema.Types.Long, default: 999999999},     // XU
 
 	redWin:     {type: mongoose.Schema.Types.Long, default: 0},     // Tổng Red thắng
 	redLost:    {type: mongoose.Schema.Types.Long, default: 0},     // Tổng Red thua
