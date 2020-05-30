@@ -13,7 +13,7 @@ let Helper     = require('../app/Helpers/Helpers');
 module.exports = function(app, redT) {
 	// Sign API
 	app.get('/api/callback/prepaid_card', function(req, res) {
-		return res.render('callback/prepaid_card');
+		return res.send('1');
 	});
 	
 	app.post('/api/callback/prepaid_card', function(req, res) {
